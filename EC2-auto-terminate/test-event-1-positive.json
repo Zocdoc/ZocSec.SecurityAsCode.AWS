@@ -1,0 +1,98 @@
+{
+  "Test_Event_Name": "BackdoorDNSTrigger",
+  "Test_Event_Desc": "Test Event: Backdoor trigger: Backdoor:EC2/C&CActivity.B!DNS",
+  "version": "0",
+  "id": "6d4fe264-d8dd-1628-b4aa-c71a18ca404e",
+  "detail-type": "GuardDuty Finding",
+  "source": "aws.guardduty",
+  "account": "033074250527",
+  "time": "2018-05-23T15:25:01Z",
+  "region": "us-east-1",
+  "resources": [],
+  "detail": {
+    "schemaVersion": "2.0",
+    "accountId": "033074250527",
+    "region": "us-east-1",
+    "partition": "aws",
+    "id": "feb1c6cb00b54c86a82635a284e89e32",
+    "arn": "arn:aws:guardduty:us-east-1:033074250527:detector/acb1127c34e6d8328167ca25c2b85ea4/finding/feb1c6cb00b54c86a82635a284e89e32",
+    "type": "Backdoor:EC2/C&CActivity.B!DNS",
+    "resource": {
+      "resourceType": "Instance",
+      "instanceDetails": {
+        "instanceId": "i-0238a54270332d4c8",
+        "instanceType": "t2.micro",
+        "launchTime": "2018-05-23T14:22:55Z",
+        "platform": "None",
+        "productCodes": [],
+        "iamInstanceProfile": {
+          "arn": "arn:aws:iam::033074250527:instance-profile/InfoSecAdmin",
+          "id": "AIPAIDMDC6J3EGQA7KZNO"
+        },
+        "networkInterfaces": [
+          {
+            "ipv6Addresses": [],
+            "networkInterfaceId": "eni-21fa15b0",
+            "privateDnsName": "None",
+            "privateIpAddress": "172.16.0.88",
+            "privateIpAddresses": [
+              {
+                "privateDnsName": "None",
+                "privateIpAddress": "172.16.0.88"
+              }
+            ],
+            "subnetId": "subnet-428aec09",
+            "vpcId": "vpc-17305c6f",
+            "securityGroups": [
+              {
+                "groupName": "launch-wizard-11",
+                "groupId": "sg-08c8aa40"
+              }
+            ],
+            "publicDnsName": "",
+            "publicIp": "34.224.97.157"
+          }
+        ],
+        "tags": [
+          {
+            "key": "InfoSecAdmin",
+            "value": "Test"
+          },
+          {
+            "key": "Name",
+            "value": "Infosec-Jay-Test-VM"
+          }
+        ],
+        "instanceState": "running",
+        "availabilityZone": "us-east-1a",
+        "imageId": "ami-14c5486b",
+        "imageDescription": "Amazon Linux AMI 2018.03.0.20180508 x86_64 HVM GP2"
+      }
+    },
+    "service": {
+      "serviceName": "guardduty",
+      "detectorId": "acb1127c34e6d8328167ca25c2b85ea4",
+      "action": {
+        "actionType": "DNS_REQUEST",
+        "dnsRequestAction": {
+          "domain": "guarddutyc2activityb.com",
+          "protocol": "UDP",
+          "blocked": false
+        }
+      },
+      "resourceRole": "TARGET",
+      "additionalInfo": {
+        "threatListName": "TestDomain"
+      },
+      "eventFirstSeen": "2018-05-23T14:42:26Z",
+      "eventLastSeen": "2018-05-23T14:42:26Z",
+      "archived": false,
+      "count": "1"
+    },
+    "severity": "8.0",
+    "createdAt": "2018-05-23T15:20:08.298Z",
+    "updatedAt": "2018-05-23T15:20:08.298Z",
+    "title": "Command and Control server domain name queried by EC2 instance i-0238a54270332d4c8.",
+    "description": "EC2 instance i-0238a54270332d4c8 is querying a domain name associated with a known Command & Control server."
+  }
+}
