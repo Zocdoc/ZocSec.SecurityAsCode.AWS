@@ -12,7 +12,9 @@
     "eventName": [
       "CreateBucket",
       "PutBucketAcl",
-      "PutBucketPolicy"
+      "PutBucketPolicy",
+      "PutBucketEncryption",
+      "DeleteBucketEncryption"
     ]
  }
 }

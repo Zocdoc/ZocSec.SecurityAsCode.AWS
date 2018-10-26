@@ -18,5 +18,5 @@ We will be sharing more of our projects in the future.
 
 We welcome contributions and pull requests to this repo; give us feedback.
 
-/* vim: spell noexpandtab sw=4 sts=4 ts=4
-*/
+<!-- vim: spell noexpandtab sw=4 sts=4 ts=4
+-->

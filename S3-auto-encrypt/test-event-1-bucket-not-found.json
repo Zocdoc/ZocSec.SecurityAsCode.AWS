@@ -1,0 +1,50 @@
+{
+    "version": "0",
+    "id": "d48a9102-33f8-d7a0-60d8-1c57f2f31d80",
+    "detail-type": "AWS API Call via CloudTrail",
+    "source": "aws.s3",
+    "account": "000000000000",
+    "time": "2018-10-24T16:56:03Z",
+    "region": "us-east-1",
+    "resources": [],
+    "detail": {
+        "eventVersion": "1.05",
+        "userIdentity": {
+            "type": "AssumedRole",
+            "principalId": "AAAAJX6QGAHTOCMODVAH4:this@example.com",
+            "arn": "arn:aws:sts::000000000000:assumed-role/user/this@example.com",
+            "accountId": "000000000000",
+            "accessKeyId": "AAAAQPM3BAMPZJHY5BF7",
+            "sessionContext": {
+                "attributes": {
+                    "mfaAuthenticated": "true",
+                    "creationDate": "2018-10-24T16:53:07Z"
+                },
+                "sessionIssuer": {
+                    "type": "Role",
+                    "principalId": "AAAAJX6QGAHTOCMODVAH4",
+                    "arn": "arn:aws:iam::000000000000:role/user",
+                    "accountId": "000000000000",
+                    "userName": "user"
+                }
+            }
+        },
+        "eventTime": "2018-10-24T16:56:03Z",
+        "eventSource": "s3.amazonaws.com",
+        "eventName": "CreateBucket",
+        "awsRegion": "us-east-1",
+        "sourceIPAddress": "0.0.0.0",
+        "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.414 Linux/4.9.124-0.1.ac.198.71.329.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.181-b13 java/1.8.0_181]",
+        "requestParameters": {
+            "bucketName": "acdc"
+        },
+        "responseElements": null,
+        "additionalEventData": {
+            "vpcEndpointId": "vpce-00000000"
+        },
+        "requestID": "59BB41060BA39BDC",
+        "eventID": "c81ecaf6-41a2-4b65-a1a5-4cb171290b8e",
+        "eventType": "AwsApiCall",
+        "vpcEndpointId": "vpce-00000000"
+    }
+}
