@@ -1,6 +1,6 @@
 # Changelog
 
-## 2018 October 23
+## 2018 October 26
 * Massive updates to s3 Bucket Encryption module
     * Greater error checking
     * Support for SES
