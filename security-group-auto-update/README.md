@@ -4,5 +4,12 @@
 
 Full readme coming soon.
 
+# About
 
+This project was released to the public as part of the Zocdoc's ZocSec.SecurityAsCode initiative.  
+
+Copyright © 2018 Zocdoc Inc.  www.zocdoc.com
+
+<!-- vim: spell expandtab
+-->
 

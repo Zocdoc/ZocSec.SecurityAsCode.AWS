@@ -2,7 +2,7 @@
 #
 # An AWS Lambda for removing security groups that expose sensitive ports to the entire Internet
 #
-# Owner:	Copyright 2018 Zocdoc Inc.  www.zocdoc.com 
+# Owner:	Copyright © 2018 Zocdoc Inc.  www.zocdoc.com 
 # Author:	Jay Ball  @veggiespam
 #
 

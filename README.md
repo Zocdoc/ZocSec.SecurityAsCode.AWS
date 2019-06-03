@@ -20,5 +20,7 @@ We welcome contributions and pull requests to this repo; give us feedback.
 
 The primary contributors to this effort are Jay Ball ([@veggiespam](https://github.com/veggiespam)) and Gary Tsai ([@garymalaysia](https://github.com/garymalaysia)).
 
+Copyright © 2018 Zocdoc Inc.  www.zocdoc.com
+
 <!-- vim: spell noexpandtab sw=4 sts=4 ts=4
 -->

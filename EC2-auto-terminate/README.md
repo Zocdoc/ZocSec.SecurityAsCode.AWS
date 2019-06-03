@@ -65,5 +65,11 @@ dig guarddutyc2activityb.com any
 
 This triggers CloudWatch to call the Lambda to shut down the server.  Please note that GuardDuty and CloudWatch can have lag between the running of the test and when the machine is shutdown, please see the documentation on both for further information.
 
-/* vim: spell expandtab
-*/
+# About
+
+This project was released to the public as part of the Zocdoc's ZocSec.SecurityAsCode initiative.  
+
+Copyright © 2018 Zocdoc Inc.  www.zocdoc.com
+
+<!-- vim: spell expandtab
+-->

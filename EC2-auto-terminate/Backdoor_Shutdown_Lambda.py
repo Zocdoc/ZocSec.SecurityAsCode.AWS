@@ -2,7 +2,7 @@
 #
 # An AWS Lambda for terminating EC2 instances for which GuardDuty detects malware.
 #
-# Owner:	Copyright 2018 Zocdoc Inc.  www.zocdoc.com 
+# Owner:	Copyright © 2018 Zocdoc Inc.  www.zocdoc.com 
 # Author:	Jay Ball  @veggiespam
 #
 

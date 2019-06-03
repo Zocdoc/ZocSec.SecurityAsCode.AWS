@@ -2,7 +2,7 @@
 #
 # An AWS Lambda for adding encryption to a bucket which had its encryption removed.
 #
-# Owner:	Copyright 2018 Zocdoc Inc.  www.zocdoc.com
+# Owner:	Copyright © 2018 Zocdoc Inc.  www.zocdoc.com
 # Authors:	Jay Ball @veggiespam
 #
 

@@ -146,5 +146,12 @@ To test,
 
 CRITICAL: system does not have permissions and rights to perform s3:PutEncryptionConfiguration on ${name_of_bucket} - please see CloudWatch Logs on this event ID for more information.
 
+# About
+
+This project was released to the public as part of the Zocdoc's ZocSec.SecurityAsCode initiative.
+
+Copyright © 2018 Zocdoc Inc.  www.zocdoc.com
+
+
 <!-- vim: spell expandtab sw=4 sts=4 ts=4
 -->
